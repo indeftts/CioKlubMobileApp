@@ -13,6 +13,7 @@
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_cio_logo.xml" value="0.144" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_event.xml" value="0.222" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/layout_shape.xml" value="0.222" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/next_button_shape.xml" value="0.205" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/square_round_shape.xml" value="0.1" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_details.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_explore_page.xml" value="0.1574074074074074" />
@@ -22,6 +23,7 @@
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_login.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_otpverification.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_registration.xml" value="0.22" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_reset_password.xml" value="0.264" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_splash_screen.xml" value="0.4697265625" />
@@ -34,13 +36,14 @@
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_my_network2.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_o_t_p_verification.xml" value="0.33" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_official_tab.xml" value="0.33" />
-        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_personal_tab.xml" value="0.536" />
-        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_preferences_tab.xml" value="0.25" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_personal_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_preferences_tab.xml" value="0.4" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_welcome_aboard.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/bottom_menu.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/home_menu.xml" value="0.4697265625" />
         <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/home_navigation_menu.xml" value="0.536" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/navigation_drawer_activity.xml" value="0.4765625" />
       </map>
     </option>
   </component>

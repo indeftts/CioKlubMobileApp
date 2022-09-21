@@ -6,27 +6,34 @@
     tools:context=".Activity.PreferencesTabFragment">
 
     <TextView
-        android:layout_width="199dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/textfood"
+        android:layout_width="74dp"
+        android:layout_height="26dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginBottom="521dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="535dp"
         android:text="Food"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        />
 
-    <Button
-        android:layout_width="109dp"
-        android:layout_height="31dp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnvegetarian"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="220dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="480dp"
         android:backgroundTint="@color/white"
         android:text="Vegetarian"
         android:textColor="@color/black"
@@ -34,16 +41,17 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 
-    <Button
-        android:layout_width="146dp"
-        android:layout_height="31dp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnnonvegetarian"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="177dp"
         android:layout_marginTop="220dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="76dp"
         android:layout_marginBottom="480dp"
         android:backgroundTint="@color/white"
         android:text="Non Vegetarian"
@@ -51,7 +59,9 @@
         android:textSize="10sp"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
+
     <TextView
+        android:id="@+id/textshirtsize"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -59,99 +69,117 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginEnd="135dp"
-        android:layout_marginBottom="434dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="423dp"
         android:text="T-Shirt Size"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="20sp" />
 
-
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btns"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="371dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="331dp"
 
+        android:layout_marginBottom="358dp"
         android:backgroundTint="@color/white"
         android:text="S"
         android:textColor="@color/black"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnm"
         android:layout_width="43dp"
         android:layout_height="wrap_content"
 
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="282dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="325dp"
 
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="358dp"
         android:backgroundTint="@color/white"
         android:text="M"
         android:textColor="@color/black"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnl"
         android:layout_width="43dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="235dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="233dp"
 
-        android:layout_marginBottom="371dp"
+        android:layout_marginBottom="359dp"
         android:backgroundTint="@color/white"
         android:text="L"
         android:textColor="@color/black"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnxl"
         android:layout_width="51dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="181dp"
-        android:layout_marginTop="312dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="359dp"
         android:backgroundTint="@color/white"
         android:text="XL"
         android:textColor="@color/black" />
 
-    <Button
-        android:layout_width="64dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="238dp"
-        android:layout_marginTop="313dp"
-        android:backgroundTint="@color/white"
-        android:text="2XL"
-        android:textColor="@color/black" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2xl"
         android:layout_width="64dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="309dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="360dp"
+        android:backgroundTint="@color/white"
+        android:text="2XL"
+        android:textColor="@color/black" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3xl"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="361dp"
         android:backgroundTint="@color/white"
         android:text="3XL"
         android:textColor="@color/black" />
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -161,14 +189,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="395dp"
         android:layout_marginEnd="134dp"
-        android:layout_marginBottom="318dp"
+        android:layout_marginBottom="302dp"
         android:text="Topic of Interest"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="98dp"
@@ -185,7 +211,7 @@
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
-        android:layout_width="107dp"
+        android:layout_width="117dp"
         android:layout_height="wrap_content"
         android:layout_algnParentStart="true"
         android:layout_alignParentTop="true"
@@ -193,7 +219,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="445dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginEnd="142dp"
         android:layout_marginBottom="254dp"
         android:backgroundTint="@color/white"
 
@@ -201,23 +227,23 @@
 
 
     <Button
-        android:layout_width="110dp"
+        android:layout_width="83dp"
         android:layout_height="wrap_content"
         android:layout_algnParentStart="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="276dp"
+        android:layout_marginStart="286dp"
         android:layout_marginTop="445dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="42dp"
         android:layout_marginBottom="252dp"
 
         android:backgroundTint="@color/white"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
-        android:layout_width="98dp"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_algnParentStart="true"
         android:layout_alignParentStart="true"
@@ -226,7 +252,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="500dp"
-        android:layout_marginEnd="272dp"
+        android:layout_marginEnd="291dp"
         android:layout_marginBottom="199dp"
 
         android:backgroundTint="@color/white"
@@ -241,17 +267,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="154dp"
-        android:layout_marginTop="498dp"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="201dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="199dp"
 
         android:backgroundTint="@color/white"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
-        android:layout_height="49dp"
+        android:layout_height="38dp"
 
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -259,11 +285,13 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="136dp"
         android:layout_marginTop="614dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="68dp"
-        android:backgroundTint="@color/teal_700"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/next_button_shape"
+
+        android:backgroundTint="@color/submit_color"
         android:text="Submit"
         android:textColor="@color/black"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 </RelativeLayout>

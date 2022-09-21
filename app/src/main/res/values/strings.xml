@@ -24,6 +24,9 @@
     <string name="menu_change_password">Change Password</string>
     <string name="menu_contact_us">Contact Us</string>
     <string name="official_email_id">Official Email Id <font color='#FF0000'> *</font></string>
+    <string name="please_enter_4_digit_verification_code_sended_on_registered_mobile_number">Please Enter 4 digit verification code,sended on registered mobile number</string>
+    <string name="resend_code">Resend Code ?</string>
+    <string name="verify">Verify</string>
 
 
 </resources>

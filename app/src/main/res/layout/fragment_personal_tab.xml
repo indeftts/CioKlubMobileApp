@@ -153,14 +153,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="36dp"
         android:layout_marginTop="512dp"
-
         android:layout_marginEnd="28dp"
+
         android:layout_marginBottom="173dp"
+        android:drawableRight="@drawable/ic_dob"
         android:hint="Date Of Birth"
         android:textColorHint="@color/black"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
+        android:id="@+id/editpassword"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_alignParentStart="true"
@@ -168,9 +170,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="570dp"
+        android:layout_marginTop="559dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="127dp"
 
         android:hint="Password"
         android:inputType="textPassword"
@@ -185,9 +187,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="621dp"
+        android:layout_marginTop="605dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginBottom="81dp"
 
         android:hint="Confirm Password"
         android:inputType="textPassword"
@@ -206,7 +208,8 @@
         android:layout_marginTop="674dp"
         android:layout_marginEnd="122dp"
         android:layout_marginBottom="23dp"
-        android:background="@color/submit_color"
+        android:background="@drawable/next_button_shape"
+        android:backgroundTint="@color/submit_color"
         android:text="Next"
         android:textColor="@color/black"
         tools:ignore="TouchTargetSizeCheck" />
