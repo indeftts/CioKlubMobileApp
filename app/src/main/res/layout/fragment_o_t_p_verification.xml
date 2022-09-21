@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OTPVerificationFragment">
+
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="619dp"
+        android:gravity="center"
+        android:text="@string/otp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="323dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="48dp"
+
+        android:layout_marginBottom="548dp"
+        android:gravity="center_horizontal"
+        android:text="Please Enter 4 digit verification code,sended on registered mobile number"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="466dp"
+        android:background="@drawable/change_button_shape"
+
+
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="466dp"
+        android:background="@drawable/change_button_shape"
+
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="466dp"
+        android:background="@drawable/change_button_shape"
+        android:backgroundTint="@color/white"
+
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="467dp"
+
+        android:background="@drawable/change_button_shape"
+        android:backgroundTint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="395dp"
+        android:text="Resend Code ?"
+        android:textColor="@color/sky_blue"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="257dp"
+        android:backgroundTint="@color/sky_blue"
+        android:text="Verify"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

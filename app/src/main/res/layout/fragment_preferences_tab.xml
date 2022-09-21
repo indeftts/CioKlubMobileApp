@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PreferencesTabFragment">
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="521dp"
+        android:text="Food"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/white"
+        android:text="Vegetarian"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:layout_width="146dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="480dp"
+        android:backgroundTint="@color/white"
+        android:text="Non Vegetarian"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="434dp"
+        android:text="T-Shirt Size"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="371dp"
+
+        android:backgroundTint="@color/white"
+        android:text="S"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="372dp"
+
+        android:backgroundTint="@color/white"
+        android:text="M"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="235dp"
+
+        android:layout_marginBottom="371dp"
+        android:backgroundTint="@color/white"
+        android:text="L"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="312dp"
+        android:backgroundTint="@color/white"
+        android:text="XL"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="313dp"
+        android:backgroundTint="@color/white"
+        android:text="2XL"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="3XL"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="318dp"
+        android:text="Topic of Interest"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="253dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_algnParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="254dp"
+        android:backgroundTint="@color/white"
+
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_algnParentStart="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="252dp"
+
+        android:backgroundTint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_algnParentStart="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="199dp"
+
+        android:backgroundTint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_algnParentStart="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="201dp"
+
+        android:backgroundTint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Submit"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

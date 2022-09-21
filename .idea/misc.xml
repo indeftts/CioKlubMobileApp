@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/black_square_shape_background.xml" value="0.108" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/border_button_shape.xml" value="0.222" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/change_button_shape.xml" value="0.1405" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/change_color_pressed_button.xml" value="0.222" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.2375" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.2375" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.205" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_cio_logo.xml" value="0.144" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/ic_event.xml" value="0.222" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/layout_shape.xml" value="0.222" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/drawable/square_round_shape.xml" value="0.1" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_details.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_explore_page.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_forgot_password.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_hello.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_hello_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_reset_password.xml" value="0.264" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/activity_splash_screen.xml" value="0.4697265625" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/content_navigation_drawer.xml" value="0.6960926193921853" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_event.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_explore_page.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_home.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_membership.xml" value="0.33" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_my_network.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_my_network2.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_o_t_p_verification.xml" value="0.33" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_official_tab.xml" value="0.33" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_personal_tab.xml" value="0.536" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_preferences_tab.xml" value="0.25" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/layout/fragment_welcome_aboard.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/bottom_menu.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/home_menu.xml" value="0.4697265625" />
+        <entry key="..\:/Users/amruta.patil/AndroidStudioProjects/CIOKlub/app/src/main/res/menu/home_navigation_menu.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

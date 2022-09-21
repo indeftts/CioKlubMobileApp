@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="599dp"
+        android:text="Login"
+
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="561dp"
+        android:drawableRight="@drawable/dot_image"
+        android:drawableTint="@color/sky_blue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textcontinue"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="533dp"
+        android:text="@string/login"
+
+
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/layout_shape">
+
+        <TextView
+            android:id="@+id/textcioforgot"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="167dp"
+            android:text="Forgot Password ?"
+            android:textColor="@color/sky_blue" />
+
+        <Button
+
+
+            android:id="@+id/buttonsignin"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="287dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="68dp"
+            android:backgroundTint="@color/sky_blue"
+            android:text="Log In"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textdontaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="341dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="42dp"
+            android:text="Want to become member?   "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textsignup"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textdontaccount"
+            android:layout_alignEnd="@+id/textdontaccount"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="181dp"
+            android:layout_marginTop="341dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="42dp"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <EditText
+
+
+        android:id="@+id/editciousername"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="424dp"
+        android:backgroundTint="@color/black"
+        android:drawableRight="@drawable/ic_username"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editciopassword"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="339dp"
+        android:backgroundTint="@color/black"
+        android:drawableRight="@drawable/ic_password"
+
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>

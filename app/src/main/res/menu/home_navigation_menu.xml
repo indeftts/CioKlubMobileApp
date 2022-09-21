@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_about_us"
+
+
+
+        android:title="About us                                       >" />
+
+    <item
+        android:id="@+id/nav_membership"
+
+        android:title="Membership                                 >" />
+
+
+
+    <item
+        android:id="@+id/nav_member_payments"
+        android:icon="@drawable/ic_baseline_payment_24"
+
+        android:title="Member Payments                      >" />
+
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+
+        android:title="Notification                                  >" />
+
+
+    <item
+        android:id="@+id/nav_terms_conditions"
+
+        android:title="Terms and Conditions               >" />
+
+
+    <item
+        android:id="@+id/nav_help"
+
+        android:title="Membership                                 >" />
+
+    <item
+        android:id="@+id/nav_change_configuration"
+
+        android:title="Change Configuration                >" />
+
+
+
+    <item
+        android:id="@+id/nav_contact_us"
+
+        android:title="Contact Us                                    >" />
+
+
+
+
+
+</menu>

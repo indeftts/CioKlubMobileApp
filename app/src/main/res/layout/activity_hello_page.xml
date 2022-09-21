@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activity.HelloPage">
+
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="636dp"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="559dp"
+        android:backgroundTint="@color/black"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editdesignation"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="501dp"
+        android:backgroundTint="@color/black"
+        android:hint="Designation"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="512dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="449dp"
+        android:text="LinkdIn Id"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editvisitingcard"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="401dp"
+        android:backgroundTint="@color/black"
+        android:hint="Visiting Card"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="103dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/black_square_shape_background"
+
+
+        android:text="Choose file"
+
+        android:textSize="8sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="103dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/black_square_shape_background"
+
+
+        android:text="Upload Image"
+
+        android:textSize="8sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editcompanyname"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="308dp"
+        android:backgroundTint="@color/black"
+        android:hint="Company Name"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editindustry"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="249dp"
+        android:backgroundTint="@color/black"
+        android:hint="Industry"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="268dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editofficialemailid"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="192dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/official_email_id"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="209dp"
+        android:background="@color/get_otp"
+        android:text="Get OTP"
+        android:textSize="8sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="142dp"
+        android:backgroundTint="@color/black"
+        android:hint="OTP"
+
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="72dp"
+        android:background="@color/submit_color"
+        android:gravity="center"
+        android:text="Submit for Approval"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="40dp"
+        android:text="Already a member? "
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="37dp"
+        android:text="Log in "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</RelativeLayout>

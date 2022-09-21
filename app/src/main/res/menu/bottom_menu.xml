@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/nav_home"
+        />
+    <item android:title="Network"
+        android:icon="@drawable/ic_membership"
+        android:id="@+id/nav_membership"
+        />
+    <item android:title="Events"
+        android:icon="@drawable/ic_event"
+        android:id="@+id/nav_mynetwork"
+        />
+    <item android:title="Profile"
+
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:id="@+id/nav_event"/>
+</menu>

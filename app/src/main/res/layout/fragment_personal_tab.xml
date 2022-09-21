@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="506dp"
+
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="461dp"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="410dp"
+
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonmale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="349dp"
+        android:background="@drawable/border_button_shape"
+        android:textColor="@color/grey"
+
+        android:text="Male"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonfemale"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="349dp"
+        android:background="@drawable/border_button_shape"
+        android:text="Female"
+        android:textColor="@color/grey"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonother"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="349dp"
+        android:background="@drawable/border_button_shape"
+        android:text="Other"
+        android:textColor="@color/grey"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editmobilenumberl"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="278dp"
+
+        android:hint="Mobile Number"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="223dp"
+
+
+        android:hint="Address"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="512dp"
+
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="173dp"
+        android:hint="Date Of Birth"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="116dp"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="65dp"
+
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonregister"
+        android:layout_width="137dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="674dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/submit_color"
+        android:text="Next"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>
